@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>survey form</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <!-- User Story #1: -->
-   <h1 id="title"></h1>
-   <!-- User Story #2: -->
-   <p id="description">Survey Form Rocks</p>
-    <!-- <form id="Survey">
+    <!-- User Story #1:✓ -->
+    <h1 id="title">Survey Form</h1>
 
-      <la 
+    <!-- User Story #2:✓ -->
+    <p id="description">Survey Form Rocks</p>
 
+    <!-- User Story #3:✓ -->
+    <form id="survey-form">
+      <!-- User Story #4:✓ -->
+      <label for="name" id="name-label"> Name:
+        <input id="name" type="text" placeholder="Enter Your Name" required />
+      </label>
+      <!-- User Story #5:✓ -->
+      <label for="name" id="email-label"> Email:
+        <input id="email" type="email" placeholder="Enter Your Email" required />
+      </label>
+      <!-- User Story #6:? -->
+      <!-- User Story #7:✓ -->
+      <label for="number" id="number-label">Number
+        <!-- User Story #8:? -->
+        <!-- User Story #9:✓ -->
+        <input
+        id="number"
+        type="number"
+        placeholder="Enter a Number"
+        min="5"
+        max="50"
+        required
+        />
+      </label>
+      <!-- User Story #10:✓ IDs for labels-->
+      <!-- User Story #11:✓ Place Holders-->
+      <!-- User Story #12:✓ -->
+      <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <!-- User Story #13:✓ -->
+      <input type="radio" name="radio-picker" value="1">
+      <input type="radio" name="radio-picker" value="2">
+      <input type="radio" name="radio-picker" value="3">
+      <!-- User Story #14:✓ -->
+      <label>
+        One
+        <input type="checkbox" value="1">
+      </label>
+      <label>
+        Two
+        <input type="checkbox" value="2">
+      </label>
+      <label>
+        Three
+        <input type="checkbox" value="3">
+      </label>
+      <!-- User Story #15:✓ -->
+      <textarea placeholder="Additional comments."></textarea>
+      <!-- User Story #16: -->
+      <label for="submit">
+        Submit
+        <input type="submit" id="submit">
+      </label>
     </form>
- -->
- <!-- User Story #3: -->
- <form id="survey-form">
-  <!-- User Story #4: -->
-      <label for="name"   id="name-label"> *name</label>
-      <input id="name"   type="text" placeholder="enterr" required> 
-  <!-- User Story #5: -->  <!-- User Story #6: -->
-      <label for="name"   id="email - label"> *email</label>
-      <input id="email"   type="email" placeholder="enterrrrr" required> 
-       <!-- User Story #7: --> <!-- User Story #8: -->
-       <label for="number"   id="number - label"> *email</label>
-       <input id="number"   type="number" placeholder="enterrrrrrrrr" min=5 max=50 required>
 
-
-
-
-
-
-
-
-
- </form>
-
-
-   
-
-    
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
